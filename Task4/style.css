@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: black;  /* default color fallback */
+}
+
+section {
+  padding: 40px 20px;
+}
+
+hr {
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid #555;
+}
+
+section p,
+section h1,
+section h2,
+section h3,
+section li {
+  font-size: 24px;  /* medium-large text */
+  margin: 10px 0;
+}
+
+/* Different text colors per section */
+#home h1, #home p {
+  color: #2a9d8f;  /* teal */
+}
+
+#about h2, #about p, #about li {
+  color: #e76f51;  /* red-orange */
+}
+
+#projects h2, #projects h3, #projects p {
+  color: #264653;  /* dark blue */
+}
+
+#contact h2, #contact p {
+  color: #f4a261;  /* orange */
+}
+
+#home { background-color: #f0f8ff; }
+#about { background-color: #e6ffe6; }
+#projects { background-color: #fff0f5; }
+#contact { background-color: #f5f5dc; }
+
+.project {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  width: 60%;
+  border-radius: 10px;
+}
+
+/* Center the list in About section */
+#about ul {
+  list-style-position: inside; /* keeps bullets inside */
+  padding: 0;
+  display: inline-block;       /* makes the list take minimal width */
+  text-align: left;            /* keeps bullets aligned with text */
+  margin: 0 auto;              /* centers the whole list */
+}
+
+#about li {
+  margin: 5px 0;               /* spacing between items */
+  font-size: 24px;             /* medium text */
+  color: #e76f51;              /* same as About text color */
+}
+
