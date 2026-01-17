@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #f0f8ff; /* light blue background */
+  color: #264653;             /* dark blue text */
+}
+
+h1 {
+  color: #2a9d8f;             /* teal headline */
+  font-size: 36px;
+}
+
+#display {
+  font-size: 50px;
+  margin: 20px auto;           /* center the box */
+  padding: 20px;
+  width: 300px;                /* medium width */
+  border: 2px solid #264653;
+  border-radius: 10px;
+  background-color: #e6ffe6;  /* light green background */
+  color: #e76f51;             /* red-orange numbers */
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  background-color: #2a9d8f; /* teal buttons */
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e76f51; /* red-orange on hover */
+}
