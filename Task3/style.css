@@ -1,0 +1,59 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f0f8ff;
+}
+
+h1 {
+  color: #2a9d8f;
+}
+
+/* Tic-Tac-Toe cells */
+#game {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cell:hover {
+  background-color: limegreen;
+}
+
+/* Winner text */
+#winner {
+  font-size: 24px;
+  color: #e76f51; /* red-orange */
+  margin: 20px 0;
+}
+
+/* Restart button styling */
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  background-color: #2a9d8f; /* teal button */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #e76f51; /* red-orange on hover */
+  transform: scale(1.05);     /* slight zoom on hover */
+}
